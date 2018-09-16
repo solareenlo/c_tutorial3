@@ -1,4 +1,4 @@
-// ポインタのポインタを使って、関数で動的メモリ確保と解放
+// ポインタのポインタを使って、main関数の外で動的メモリ確保と解放
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
