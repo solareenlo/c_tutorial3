@@ -1,3 +1,4 @@
+// 構造体と関数とポインタと基本ソートを使って、５人の生徒の成績を、５教科の合計点数が高い順に並べ替えて再表示
 #include <stdio.h>
 
 #define STUDENT_NUM (5)
@@ -70,9 +71,6 @@ void sortData(student_data* data) {
         for(j = i+1; j < STUDENT_NUM; j++) {
             if((data+i)->sum < (data+j)->sum) {
                 swapStruct((data+i), (data+j));
-                //temp = (data+i)->sum;
-                //(data+i)->sum = (data+j)->sum;
-                //(data+j)->sum = temp;
             }
         }
     }
