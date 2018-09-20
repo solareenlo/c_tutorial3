@@ -1,1 +1,1 @@
-apple,orange,banana,pineapple,txt,tex,c_lang
+at,apple,orange,banana,pineapple,txt,tex,c_lang,angel,lucky,abc,test,alock
